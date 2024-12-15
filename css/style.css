@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+header{
+	width: 100%;
+	background-color: lightcoral;
+}
+
+nav{
+	width: 20%;
+	background-color: green;
+}
+
+nav a {
+	display: block;
+	color: black;
+	line-height: 2.4em;
+	background-color: darkgrey;
+	text-align: center;
+	width: 80%;
+	margin: 1em auto;
+}
+
+main{
+	width: 80%;
+	background-color: rgb(69, 69, 179);
+}
+
+footer{
+	width: 100%;
+	background-color: rgb(63, 139, 0);
+}
